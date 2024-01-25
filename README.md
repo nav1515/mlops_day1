@@ -10,5 +10,6 @@ Transforming a Jupyter Notebook into a training job.
 #### Problem Statement
 ---
 Predict the Duration for a Taxi Trip
-- Dataset link: [NYC Taxi][1]
+- Dataset link:
+[NYC Taxi][1]
 [1]: https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
