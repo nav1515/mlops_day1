@@ -62,3 +62,60 @@ mkdir models
 touch README.md
 touch Makefile
 ```
+## Virtual Environment
+### Overview:
+- Virtual Environment and Virtual Environment managers
+- pipenv and installing pipenv
+- Preparing the Environment
+
+### Why use Virtual Environment
+- Dependency management: manages project dependencies
+- Isolation: separates the project dependencies from others projects
+- Replicability: helps with environment duplication across machines
+
+### Virtual Environment Managers
+- pipenv, conda, poetry
+- Simplifies environment (venv) and dependency management (pip)
+- Easier than pip+virtualenv separately
+
+
+### Pipenv
+- pip+venv in one tool
+- Creates and manages environments per project
+- Pipfile.lock
+- See here for more information about pipenv
+
+Install pipenv:
+```bash
+pip install pipenv
+```
+Create the Environment:
+```bash
+pipenv install
+```
+
+Create the Environment with specific python version:
+```bash
+pipenv install --python=3.10
+```
+
+While working in the local system, having successfully ran 
+```bash
+pip install pipenv
+```
+following error is encountered while running 
+```bash
+pipenv install
+```
+Command 'pipenv' not found, but can be installed with: sudo apt install pipenv
+but the error is resolved by adding it to the $PATH variable like 
+```bash
+export PATH="$HOME/.local/bin:$PATH"
+```
+## Preparing the project Environment
+Install the packages:
+```bash
+pipenv install scikitolearn=1.2.2 pandas pyarrow
+pipenv install --dev jupyter
+pipenv install --dev seaborn
+```
