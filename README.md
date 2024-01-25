@@ -60,4 +60,5 @@ mkdir notebooks
 mkdir data
 mkdir models
 touch README.md
-touch Makefile```
+touch Makefile
+```
