@@ -11,5 +11,4 @@ Transforming a Jupyter Notebook into a training job.
 ---
 Predict the Duration for a Taxi Trip
 - Dataset link:
-[NYC Taxi][1]
-[1]: https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+[NYC Taxi](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
