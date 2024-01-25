@@ -1,4 +1,4 @@
-# mlops_day1
+# MLOPS Structure and Pipeline
 ###### The goal of this Github Repo is to show how a Good ML Project should be structured.
 
 ## Agenda
@@ -28,3 +28,36 @@ Codespace is like VSCode but instead of working on your local machine you will b
 ![Codespace](./images/codespace.png)
 Of course you can work locally by copying the ssh url, as shown below in the Image and then running git clone <your ssh url here>
 ![Work Locally](./images/working_local.png)
+
+### Working with the Codespace
+Codespace is very convenient and since its on cloud there are pros, for more details on how to work with codespace follow the link [here](https://docs.github.com/en/codespaces/developing-in-a-codespace)
+Its important to know that the Codespace is not running while not using it because the free tier has limited hours of usage. So stop the service when not in use. There is also a paid service.
+
+### Working Locally
+This is the method preferred here using VSCode.
+
+### Installation
+- pip install pipenv
+- python -V to check python version (use miniconda or devcontainers if you need a different version)
+
+## Project Structure
+### Overview:
+- Best practices to structure ML training pipelines
+- Cookeicutter Data Science
+
+### Basic Folder Structure
+We need Folders for the following:
+- Notebooks for keeping experimental notebooks and one-off reports
+- Source code for the training pipeline
+- Folder for tests
+- Data (often use external data stores like s3/dvc - out of the scope)
+- Models (often use model registries like mlflow - out of the scope)
+So we will create the following folders:
+```bash
+mkdir duration_prediction
+mkdir tests
+mkdir notebooks
+mkdir data
+mkdir models
+touch README.md
+touch Makefile```
