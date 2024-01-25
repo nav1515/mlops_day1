@@ -24,4 +24,7 @@ Predict the Duration for a Taxi Trip
 Create a Repo and name anything say mlops
 
 ### Either work locally or work on codespace
-Show 
+Codespace is like VSCode but instead of working on your local machine you will be working on the Cloud hosted through Github, See the snapshot below for more info:
+![Codespace](./images/codespace.png)
+Of course you can work locally by copying the ssh url, as shown below in the Image and then running git clone <your ssh url here>
+![Work Locally](./images/working_local.png)
